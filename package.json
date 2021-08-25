@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node --max-http-header-size 16384 server.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
