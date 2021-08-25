@@ -8,7 +8,11 @@ const app = express();
 
 
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
+  res.send("Authentication Flow Works Home Route")
+})
+
+app.get("/home", (req, res) => {
   res.send("Authentication Flow Works")
 })
 
