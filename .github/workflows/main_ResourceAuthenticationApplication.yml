@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'ResourceAuthenticationApplication'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2712bafa85534e2e91442eb0ff453bed }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4078138fb8ed4353ab50726f51da60a6 }}
         package: .
